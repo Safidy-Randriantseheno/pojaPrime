@@ -1,4 +1,4 @@
-package com.poja.poja-prime.endpoint.event;
+package com.poja.pojaPrime.endpoint.event;
 
 import static java.util.UUID.randomUUID;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,9 +8,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.poja.poja-prime.conf.FacadeIT;
-import com.poja.poja-prime.endpoint.event.gen.UuidCreated;
-import com.poja.poja-prime.repository.DummyUuidRepository;
+import com.poja.pojaPrime.conf.FacadeIT;
+import com.poja.pojaPrime.endpoint.event.gen.UuidCreated;
+import com.poja.pojaPrime.repository.DummyUuidRepository;
 
 class EventConsumerIT extends FacadeIT {
 
